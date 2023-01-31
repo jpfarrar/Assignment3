@@ -1,10 +1,12 @@
 h1 {
-    color:#666;
+    color:rgb(182, 176, 176);
     margin-bottom: 10px;
     padding: 0;
-    font-size: 2.5em;
+    font-size: 2.7em;
     text-align: center;
     line-height: 150%;
+    background-color: darkcyan;
+    text-shadow: 0 5px 7px #333;
 }
 
 h2{
@@ -20,6 +22,13 @@ body {
   margin:0 auto;
   font-family: "Palatino Linotype", Garamond, serif;
   color: rgb(9, 64, 71);
-  background: #cef;
+  background: #6495ed;/*cef;*/
   margin-top: 200px;
+
 }
+
+div {
+  font-size: 3em;
+  font-family: Lato;
+}
+
