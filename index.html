@@ -4,16 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    
+    <link href= "main.css" type="text/css" rel="stylesheet">
+    <link href="main.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100&effect=neon">
+
+    <style>
+      .font-effect-neon {
+        text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 0.4em #ff7,0 0 0.6em #0f0, 0 0 0.8em #ff0, 0 0 1.0em #ff0, 0 0 1.2em #ff0;
+        color: #fff;
+        }
+
+nav{
+color: #fff;
+
+  }
+
+nav li{
+display: inline-block;
+position: relative;
+padding: 5px 7px; 
+font: bold 12px/18px sans-serif;
+border-radius: 5px;
+background-color: rgb(131, 236, 32);
+    }
+
+    nav ul li:hover{
+    background-color: rgb(240, 235, 235); /*change background color to black on hover*/
+}
+
+
+</style>
   </head>
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
         <h1>Joshua Farrar</h1>
-        <h2>Graphic Designer</h2>
+        <div class="font-effect-neon">Graphic Designer</div>
+
+        <nav>
+          <ul><li><a href="#">Home</a></li>
+            <li><a href="#">Protfolio</a></li>
+            <li><a href="#">Contact</a></li>
+         </ul></nav>
+
+        
+        
 
         <p>My name is Joshua P. Farrar. I was born in 1996 and have lived in North Carolina my whole life. I am a current and future studen of Wake Tech Community College. My major is Graphic Design and Advertisement. I have been attending this college for a total of three years. My goal is to become a fully realised Graphic Designer and find a great bussiness or company to work for.</p>
-        
+
         <p>Mi nombre es Joshua P. Farrar. Nací en 1996 y he vivido en Carolina del Norte toda mi vida. Soy un estudiante actual y futuro de Wake Tech Community College. Mi especialidad es Diseño Gráfico y Publicidad. He estado asistiendo a esta universidad por un total de tres años. Mi objetivo es convertirme en un diseñador gráfico completamente realizado y encontrar un gran negocio o empresa para trabajar.</p>
 
         <p>I am a resident of the United States and law abiding citizen. I am also currently enlisted with the National Guard on a multiple year contract.</p>
@@ -25,7 +65,9 @@
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section>
         <h2>Project 1</h2>
-        <p>This sote was a major help during most of our projects for a WEB Design class I took during one of my years as a student of waketech. <a href="https://www.linkedin.com/learning/?leis=LTI&u=56744281">Linked In</a>.</p>
+        <p>This site was a major help during most of our projects for a WEB Design class I took during one of my years as a student of waketech.</p>
+          
+          <p>Este sitio fue de gran ayuda durante la mayoría de nuestros proyectos para una clase de diseño WEB que tomé durante uno de mis años como estudiante de waketech.<a href="https://www.linkedin.com/learning/?leis=LTI&u=56744281">Linked In</a>.</p>
 
         <!-- Copy the whole <section> block to add more projects. -->
         <section>
@@ -69,7 +111,7 @@
 
         <!-- Copy this whole <section> block to add more schools. -->
         <section>
-          <h3>waketech Community College - Raleigh</h3>
+          <h3>Waketech Community College - Raleigh</h3>
           <p>Current Student of three years, soon to graduate.</p>
           <p>Well loved and well recieved student.</p>
           <img src="placeholder images/thumbnail-2.jpg" alt="placeholder images">
@@ -84,11 +126,12 @@
 
         <!-- Social media and contact links. Add or remove any networks. -->
         <ul>
-          <li><a href="jpfarrar@my.waketech.edu"></a></li>
+          
           <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
           <li><a href="#" target="_blank">Twitter</a></li>
           <li><a href="#" target="_blank">LinkedIn</a></li>
           <li><a href="#" target="_blank">Facebook</a></li>
+          <li><a href="#" target="_blank">jpfarrar@my.waketech.edu<a><li>
         </ul>
       </footer>
     </main>
